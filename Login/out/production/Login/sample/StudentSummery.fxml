@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="379.0" prefWidth="907.0" style="-fx-background-color: #D7E8EE;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StudentSummery">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="111.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resource/New%20folder/academy-3-444459.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="365.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resource/New%20folder/course_1312410.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="599.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resource/New%20folder/Energy-Appraiser-Certification-Course-Materials-Icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="132.0" layoutY="314.0" text="Academy">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="364.0" layoutY="317.0" text="Present Course">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="623.0" layoutY="314.0" text="All Course">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="StudentName" ellipsisString="" layoutX="203.0" layoutY="30.0" prefHeight="46.0" prefWidth="474.0" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

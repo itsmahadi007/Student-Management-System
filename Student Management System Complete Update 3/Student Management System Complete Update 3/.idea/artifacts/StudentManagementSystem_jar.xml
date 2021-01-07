@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="StudentManagementSystem:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/StudentManagementSystem_jar</output-path>
+    <root id="archive" name="StudentManagementSystem.jar">
+      <element id="module-output" name="StudentManagementSystem" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/derby-10.5.1000001.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
